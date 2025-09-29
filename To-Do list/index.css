@@ -6,3 +6,23 @@ h2 {
 .delete {
   margin-right: 5px;
 }
+
+/* Filter button group styling */
+#filter-group {
+  margin-bottom: 12px;
+}
+.filter-btn.active {
+  background-color: #337ab7; /* bootstrap primary */
+  color: #fff;
+}
+
+/* Completed tasks: muted and strikethrough */
+.task-completed {
+  color: #777;
+  text-decoration: line-through;
+}
+
+.todo-row {
+  margin-bottom: 8px;
+  align-items: center;
+}
